@@ -131,4 +131,4 @@ wg
 # 以上生成的配置只作为说明文档，实际去调用另一个脚本生成配置
 
 # 一键 WireGuard 多用户配置共享脚本 
-wget -qO- git.io/fhSLc | bash
+wget -qO- git.io/fhSO4 | bash
