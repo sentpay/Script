@@ -2,7 +2,7 @@
 #    WireGuard VPN多用户服务端  自动配置脚本
 
 #    本脚本(WireGuard 多用户配置)一键安装短网址
-#    wget -qO- git.io/fhSLc | bash
+#    wget -qO- git.io/fhSO4 | bash
 #############################################################
 # 定义修改端口号，适合已经安装WireGuard而不想改端口
 port=8081
@@ -13,7 +13,7 @@ ip_list=(2 5 8 178 186 118 158 198 168 9)
 help_info() {
 cat  <<EOF
 # 一键安装wireguard 脚本 Debian 9 (源:逗比网安装笔记)
-wget -qO- git.io/fhSLt | bash
+wget -qO- git.io/fhSOO | bash
 # 一键安装wireguard 脚本 Ubuntu   (源:逗比网安装笔记)
 wget -qO- git.io/fpcnL | bash
 # CentOS 7 一键脚本安装WireGuard  (官方脚本自动升级内核)
