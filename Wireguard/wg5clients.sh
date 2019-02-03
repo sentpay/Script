@@ -7,7 +7,7 @@
 # 定义修改端口号，适合已经安装WireGuard而不想改端口
 port=8081
 mtu=1420
-ip_list=(2 5 8 178 186 118 158 198 168 9 33 43 65 56 34 27 45 77 88 89)
+ip_list=(2 5 8 178 186 118 158 198 168 9)
 
 #############################################################
 help_info() {
@@ -95,8 +95,8 @@ AllowedIPs = 0.0.0.0/0, ::0/0
 PersistentKeepalive = 25
 EOF
 
-# 添加 2-20 号多用户配置
-for i in {2..20}
+# 添加 2-9 号多用户配置
+for i in {2..9}
 do
     ip=10.0.0.${ip_list[$i]}
     wg genkey | tee cprivatekey | wg pubkey > cpublickey
